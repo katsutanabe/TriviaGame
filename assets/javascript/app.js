@@ -41,6 +41,8 @@ for (i = 1; i <= total; i++) {
  results.innerHTML = "<h3>You Scored <span>"+score+"</span>out of<span>"+total+"</span></h3>";
 
  alert('You Scored' +score+ 'out of' +total);
+ stop();
+
      
  return false;
 
